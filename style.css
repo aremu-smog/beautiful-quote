@@ -1,18 +1,19 @@
-body{
+body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
     background-color: #f3f3f8;
 }
 
-main{
+main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100%;
 }
-.quote-wrapper{
+
+.quote-wrapper {
     flex-grow: 1;
     flex-shrink: 1;
     max-width: 900px;
@@ -20,19 +21,19 @@ main{
     justify-content: space-between;
 }
 
-h1{
+h1 {
     font-size: 3em;
 }
 
-
-img{
+img {
     width: 420px;
     height: 350px;
     border-radius: 10px;
     object-fit: cover;
     object-position: center center;
 }
-.image-info{
+
+.image-info {
     width: 90%;
     margin: auto;
     font-size: 12px;
@@ -42,19 +43,32 @@ img{
     justify-content: space-between;
     align-items: center;
 }
-.image-info span{
+
+.image-info span {
     display: inline-block;
 }
 
-.image-info img{
+.image-info img {
     width: 35px;
     height: 35px;
 }
 
-.quote-nav{
+.quote-nav {
     margin: 18px auto;
     height: 35px;
     width: 100px;
     background: #F9827D;
     border-radius: 35px;
+}
+
+.Hits img,
+.Quote img {
+    /* display: flex; */
+    height: 15px;
+    width: 15px;
+}
+
+.Hits .Quote {
+    display: flex;
+    align-content: center;
 }
